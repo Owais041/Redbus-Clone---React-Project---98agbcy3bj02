@@ -1,0 +1,365 @@
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ body{
+  background-image: url('https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg');
+  color: #4a4a4a;
+  height: 100%;
+  overflow-y: scroll;
+  word-break: break-word;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  background-attachment: fixed;
+ }
+ h1{
+  color:rgb(255, 0, 96);
+ }
+ .navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  height: 80pxpx;
+  /* color: azure; */
+  /* position: fixed; */
+}
+
+.navbar-logo img {
+  width: 70px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  padding: 0;
+}
+
+.navbar-item {
+  display: flex;
+margin-left: 40px  ;
+ justify-content: left;
+ margin-right:  150px;
+ gap: 5px;
+
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: white;
+  background-color: rgb(82, 109, 130);
+  border: 10px ;
+  border-radius: 10px;
+  padding: 4px;
+  }
+  .search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+   
+  
+  /* Additional styles as per your design requirements */
+  
+
+  .from{
+    display: flex;
+    justify-content: center;
+    color: rgb(29, 20, 9);
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 120px;
+   
+  }
+  .one{
+    margin: 0px 0px 8px;
+  }
+  .search{
+    /* justify-content: center ;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-radius: 20px;
+    background-color: tomato; */
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+  }
+  .seearch-date{
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    appearance: none;
+    background-color: tomato;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+  }
+  
+ 
+   
+.search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: tomato;
+  /* margin-top: 50%; */
+   
+     /* background-color: rgb(255, 225, 93); */
+}
+.jwIjiQ {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.75rem;
+  color: rgb(29, 29, 29);
+  width: 34.5rem;
+}
+ 
+.btn{
+  background-color: rgb(246, 255, 166);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 1px green;
+  border-radius: 19px;
+  cursor: pointer;
+}
+/* <!-- HTML !-->
+<button class="button-17" role="button">Button 17</button> */
+
+/* CSS */
+.button-17 {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.button-17:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button-17:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.button-17:not(:disabled) {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):hover {
+  box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+}
+
+.button-17:not(:disabled):focus {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+
+.button-17:not(:disabled):active {
+  box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+}
+
+.button-17:disabled {
+  box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+}
+.busId{
+  color: hsl(217, 76%, 37%);
+}
+.h2{
+margin: 30px;
+  font-size: 26px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(216, 78, 85) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400px;
+}
+.back {
+  background: url(https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg) 0% 0% / cover no-repeat;
+  background-repeat: no-repeat;
+}
+.maindiv {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: 100px;  
+  background-color: rgb(216, 78, 85);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+    
+}
+
+.busItem {
+  list-style-type: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: whitesmoke;
+  font-weight: 300;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-items: center;
+  display: flex;
+  gap:  30px ;
+  font-size: 20px;
+   
+}
+
+.busId {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+
+}
+
+.busItem p {
+  margin: 5px 0;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  /* border: 10px solid slategray; */
+
+  
+}
+.image{
+  height: 130px;
+  width: 1000px;
+  border:5px solid white;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+  .footer-container{
+    color: #ccc;
+    margin: 20px;
+    font-size: 20px;
+  }
+  .footer-info{
+    color: black;
+  }
+  .fAiJnC {
+    background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+    display: flex;
+    border-radius: 48px;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+    background-size: cover;
+    background-position: right center;
+}
+  
